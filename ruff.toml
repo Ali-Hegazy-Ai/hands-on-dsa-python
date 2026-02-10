@@ -1,0 +1,18 @@
+# Ruff configuration
+# This file extends the pyproject.toml ruff configuration
+
+[lint]
+select = [
+    "F",      # Pyflakes - detects errors
+    "E",      # pycodestyle errors - style issues
+    "W",      # pycodestyle warnings
+    "I",      # isort - import sorting
+    "UP",     # pyupgrade - syntax modernization
+    "B",      # flake8-bugbear - logical errors
+]
+
+ignore = [
+    "E501",   # Line too long (whitespace handling is via formatter)
+]
+
+line-length = 100
