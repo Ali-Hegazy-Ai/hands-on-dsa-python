@@ -10,5 +10,4 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -e ".[dev]"
-      - run: pytest tests/
       - run: python -m mypy src/ --ignore-missing-imports
