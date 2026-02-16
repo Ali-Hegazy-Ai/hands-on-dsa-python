@@ -86,6 +86,7 @@ See [notes/00_study_method.md](notes/00_study_method.md) for the overall learnin
 - Official book: "Hands-On Data Structures and Algorithms with Python (3rd Edition)"
 - Test-driven development approach
 - Benchmark-driven optimization
+- Split chapter PDFs: [book/chapters/README.md](book/chapters/README.md)
 
 ## License
 

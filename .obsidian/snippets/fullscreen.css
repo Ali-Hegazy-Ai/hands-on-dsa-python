@@ -1,0 +1,89 @@
+/* ========= FULL SCREEN OBISIDIAN ========= */
+/* No centering. No max-width. True edge-to-edge layout. */
+
+
+body {
+  background: red !important;
+}
+
+/* Kill all artificial width limits */
+.markdown-preview-view,
+.markdown-preview-section,
+.markdown-source-view,
+.cm-editor,
+.cm-scroller,
+.workspace-leaf-content,
+.view-content {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-sizing: border-box;
+}
+
+/* Workspace must use entire viewport */
+.workspace,
+.app-container,
+.horizontal-main-container {
+  width: 100vw;
+  max-width: none;
+}
+
+/* Typography scales with screen size */
+body {
+  font-size: clamp(15px, 1.1vw, 18px);
+  line-height: 1.65;
+}
+
+/* ---------- TABLES ---------- */
+/* Website-style tables: full width, scroll only if necessary */
+.markdown-preview-view table {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+}
+
+.markdown-preview-view th,
+.markdown-preview-view td {
+  padding: 0.6rem 0.8rem;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+/* ---------- IMAGES & EMBEDS ---------- */
+.markdown-preview-view img,
+.markdown-preview-view iframe,
+.markdown-preview-view video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ---------- CODE BLOCKS ---------- */
+.markdown-preview-view pre {
+  max-width: 100%;
+  overflow-x: auto;
+  font-size: 0.85em;
+}
+
+/* ---------- LINKS ---------- */
+a[href] {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* ---------- SIDEBARS ---------- */
+/* Let content breathe on large screens */
+.workspace-split.mod-vertical > .workspace-leaf {
+  min-width: 80px;
+}
+
+/* Optional: wider sidebars on 2K+ */
+.workspace-leaf-sidebar {
+  min-width: 260px;
+  max-width: 360px;
+}

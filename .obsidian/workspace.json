@@ -1,0 +1,298 @@
+{
+  "main": {
+    "id": "dce8ddbee53de60e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5d6467a8d20bece",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28109b6e776d8324",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/01_python_data_types.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01_python_data_types"
+            }
+          },
+          {
+            "id": "e4699b25371d9759",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/ch1/collections library.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "collections library"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "24ef49c90b45ec4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8370944d7cb4dd75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a426d6e93216aa4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "976f4cd0fab91178",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "83d69df65822c3b0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "6ce1f5c72190bfc3",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5004348754883
+  },
+  "right": {
+    "id": "e9f5d93da90e5926",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b3874f21cb980c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48ca5f03911e87c2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "edc0389aed6d5ad9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "associate-data-engineer-sql/09-introduction-to-snowflake/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "0aee84bdaf235011",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0e9e8aee1ef9ecab",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0b0b70d218f71085",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "associate-data-engineer-sql/09-introduction-to-snowflake/README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          },
+          {
+            "id": "67993aa51ac3216f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "9a265ba9c74d10dc",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "954a80c9d65b6144",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "obsidian-import-json:JSON/CSV Importer": false,
+      "obsidian-kanban:Create new board": false,
+      "markdown-table-editor:Open Markdown Table Editor": false
+    }
+  },
+  "active": "e4699b25371d9759",
+  "lastOpenFiles": [
+    "notes/ch1/ch1.md",
+    "notes/ch1/collections library.md",
+    "notes/ch1/01_python_data_types.md",
+    "notes/ch1/README.md",
+    "notes/ch13/README.md",
+    "notes/ch12/README.md",
+    "notes/ch11/README.md",
+    "notes/ch10/README.md",
+    "notes/ch9/README.md",
+    "notes/ch8/README.md",
+    "notes/ch7/README.md",
+    "notes/ch6/README.md",
+    "notes/ch5/README.md",
+    "notes/ch4/README.md",
+    "notes/ch3/README.md",
+    "notes/ch2/README.md",
+    "notes/ch13",
+    "notes/ch12",
+    "notes/ch11",
+    "notes/ch10",
+    "notes/ch9",
+    "notes/ch8",
+    "notes/ch7",
+    "notes/ch6",
+    "notes/ch5",
+    "notes/ch4",
+    "book/chapters/README.md",
+    "notes/notes.md",
+    "notes/Introduction to AlgorithmDesign.md",
+    "notes/02_algorithm_analysis.md",
+    "notes/03_linked_lists.md",
+    "notes/04_stacks_queues.md",
+    "notes/00_study_method.md",
+    "STUDY_PLAN.md",
+    "02-introduction-to-python-for-developers.md",
+    "associate-data-engineer-sql/07-database-design/README.md",
+    "associate-data-engineer-sql/01-understanding-data-engineering/0086-big-data-pipeline-cheatsheet-for-aws-azure-and-gcp.png",
+    "associate-data-engineer-sql/04-joining-data/Pasted image 20260129000209.png",
+    "associate-data-engineer-sql/04-joining-data/Pasted image 20260128231014.png",
+    "Pasted image 20260203000958.png",
+    "Untitled.canvas",
+    "resources/sql-docs/docs/00_SalesDB_DataModel.png",
+    "resources/SQL Full Course for Beginners (30 Hours) – From Zero to Hero/sql-data-warehouse-project/docs/data_model.png",
+    "resources/SQL Full Course for Beginners (30 Hours) – From Zero to Hero/sql-data-warehouse-project/docs/data_integration.png",
+    "resources/SQL Full Course for Beginners (30 Hours) – From Zero to Hero/sql-data-warehouse-project/docs/data_flow.png",
+    "resources/SQL Full Course for Beginners (30 Hours) – From Zero to Hero/sql-data-warehouse-project/docs/data_architecture.png",
+    "resources/SQL Full Course for Beginners (30 Hours) – From Zero to Hero/sql-data-warehouse-project/docs/ETL.png"
+  ]
+}
