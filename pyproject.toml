@@ -48,13 +48,6 @@ packages = ["dsa"]
 [tool.setuptools.package-dir]
 dsa = "src/dsa"
 
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-addopts = "-v --tb=short"
-python_files = ["test_*.py"]
-python_classes = ["Test*"]
-python_functions = ["test_*"]
-
 [tool.mypy]
 python_version = "3.11"
 strict = true
